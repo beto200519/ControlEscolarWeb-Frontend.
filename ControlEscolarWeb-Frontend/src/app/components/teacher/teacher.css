@@ -1,0 +1,34 @@
+
+.sidebar .nav-link {
+    border-radius: 8px;
+    margin-bottom: 4px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #283593;
+    opacity: 1 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #283593 !important;
+    box-shadow: 0 0 0 0.2rem rgba(40, 53, 147, 0.25) !important;
+}
+
+.table th {
+    font-weight: 600;
+    border-bottom: 2px solid #0d1b4a;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e8eaf6;
+}
+
+/* RNF-05: Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto !important;
+    }
+}
